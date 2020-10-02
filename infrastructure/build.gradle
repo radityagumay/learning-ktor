@@ -1,0 +1,34 @@
+defaultTasks 'copyEnvironmentConfig', 'build'
+apply plugin: 'application'
+mainClassName = 'io.ktor.server.netty.EngineMain'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation project(':database')
+    implementation project(':service-province')
+    implementation project(':shared-jackson')
+    implementation project(':shared-async-extension')
+
+    // ktor
+    implementation "io.ktor:ktor-server-netty:$ktor_version"
+    implementation "io.ktor:ktor-locations:$ktor_version"
+    implementation "io.ktor:ktor-server-core:$ktor_version"
+    implementation "io.ktor:ktor-mustache:$ktor_version"
+    implementation "io.ktor:ktor-client-core:$ktor_version"
+    implementation "io.ktor:ktor-client-core-jvm:$ktor_version"
+    implementation "io.ktor:ktor-client-apache:$ktor_version"
+
+    // jackson
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7"
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.5"
+
+    // koin
+    implementation "org.koin:koin-ktor:$koin_version"
+
+    testImplementation "io.ktor:ktor-server-test-host:$ktor_version"
+    testImplementation "org.koin:koin-test:$koin_version"
+}

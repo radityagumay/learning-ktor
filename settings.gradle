@@ -1,0 +1,14 @@
+rootProject.name = "jiva-backend"
+include 'infrastructure'
+include 'database'
+
+// services
+include ':service-login'
+project(':service-login').projectDir = new File("./services/service-login")
+
+// shared
+include ':shared-jackson'
+project(':shared-jackson').projectDir = new File("./shared/shared-jackson")
+
+include ':shared-async-extension'
+project(':shared-async-extension').projectDir = new File("./shared/shared-async-extension")
