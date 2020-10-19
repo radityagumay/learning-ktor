@@ -1,7 +1,0 @@
-dependencies {
-    implementation("org.jetbrains.exposed:exposed-core:0.24.1")
-    implementation("org.jetbrains.exposed:exposed-dao:0.24.1")
-    implementation("org.jetbrains.exposed:exposed-jdbc:0.24.1")
-    implementation("com.h2database:h2:1.4.191")
-    implementation("joda-time:joda-time:2.9.2")
-}

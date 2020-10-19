@@ -1,0 +1,13 @@
+dependencies {
+    implementation project(':shared-jackson')
+    implementation project(':shared-async-extension')
+    implementation project(':memory-cache')
+
+    // auth
+    implementation "io.ktor:ktor-auth:$ktor_version"
+    implementation "io.ktor:ktor-auth-jwt:$ktor_version"
+
+    implementation "io.ktor:ktor-server-core:$ktor_version"
+    implementation "io.ktor:ktor-locations:$ktor_version"
+    implementation "org.koin:koin-ktor:$koin_version"
+}

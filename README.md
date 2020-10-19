@@ -1,20 +1,5 @@
-### COVID-19-BACKEND
+### Learning Ktor
 
-An open source android application to show infos about novel corona virus in Indoesia areas. Feel free to raise any PR or fork this repository.
-
-Please check android App [here](https://github.com/radityagumay/COVID-19-ANDROID)
-
-
-Screenshot
-----------
-<img src="https://github.com/radityagumay/COVID-19-ANDROID/blob/master/public/images/Screenshot_1584412239.png" width="350" height="600" />
-
-<img src="https://github.com/radityagumay/COVID-19-ANDROID/blob/master/public/images/Screenshot_1584326466.png" width="350" height="600" />
-
-<img src="https://github.com/radityagumay/COVID-19-ANDROID/blob/master/public/images/Screenshot_1584326470.png" width="350" height="600" />
-
-License
--------
 ```
 Copyright 2019 RadityaLabs.
 

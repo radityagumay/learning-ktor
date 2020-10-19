@@ -5,5 +5,5 @@ import io.ktor.application.install
 import io.ktor.features.CallLogging
 
 fun Application.loggingModule() {
-    install(CallLogging)
+    //install(CallLogging)
 }

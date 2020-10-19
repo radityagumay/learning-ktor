@@ -8,8 +8,8 @@ repositories {
 }
 
 dependencies {
-    implementation project(':database')
-    implementation project(':service-province')
+    //implementation project(':database')
+    implementation project(':service')
     implementation project(':shared-jackson')
     implementation project(':shared-async-extension')
 
